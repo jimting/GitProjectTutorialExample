@@ -37,7 +37,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(minus(9, 4), 5)
 
     def test_float_minus(self):
-        self.assertEqual(minus(4.2, 3), 1.2)
+        self.assertEqual(minus(4.2, 3.2), 1.0)
 
     def test_int_times(self):
         self.assertEqual(times(9, 3), 27)
@@ -46,7 +46,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(times(9, 4), 36)
 
     def test_float_times(self):
-        self.assertEqual(times(4.2, 3), 12.6)
+        self.assertEqual(times(4.2, 3.3), 13.86)
 
     def test_int_divided(self):
         self.assertEqual(divided(9, 3), 3)
