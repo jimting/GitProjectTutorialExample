@@ -22,7 +22,13 @@ script: true
  # Another command/method to run tests
 script: 
   - python Calculator.py
+
 deploy:
   provider: heroku
-  api_key: 3a76dc49-8c52-475b-b298-10cbe12effa2
+  api_key:
+    secure: 3a76dc49-8c52-475b-b298-10cbe12effa2
   app: test-my-travisci-project
+  on:
+    repo: jimting/GitProjectTutorialExample
+  run:
+    "web: gunicorn app_run:app"
