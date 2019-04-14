@@ -22,21 +22,7 @@ script: true
  # Another command/method to run tests
 script: 
   - python Calculator.py
-
 deploy:
   provider: heroku
-  api_key:
-    secure: 3a76dc49-8c52-475b-b298-10cbe12effa2
+  api_key: 3a76dc49-8c52-475b-b298-10cbe12effa2
   app: test-my-travisci-project
-  on:
-    repo: jimting/GitProjectTutorialExample
-# This returns the coverage and let's coveralls know the coverage percent. 
-# Note that travis will build your system and get the coverage. 
-# It cannot display, therefore coveralls becomes important to get the coverage
-# You can also use after_success
-#after_script:
-#  - coveralls
- 
-# Using codecov to get coverage
-#after_success:
-#- codecov
