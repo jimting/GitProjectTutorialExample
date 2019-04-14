@@ -30,8 +30,6 @@ deploy:
   app: test-my-travisci-project
   on:
     repo: jimting/GitProjectTutorialExample
-  run:
-    python app_run.py
 # This returns the coverage and let's coveralls know the coverage percent. 
 # Note that travis will build your system and get the coverage. 
 # It cannot display, therefore coveralls becomes important to get the coverage
