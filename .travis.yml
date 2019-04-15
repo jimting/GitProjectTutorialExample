@@ -32,5 +32,4 @@ deploy:
     repo: jimting/GitProjectTutorialExample
   #Setting your heroku Procfile here!!!
   run:
-    "heroku builds:cancel"
-    "web: gunicorn app_run:app"
+    "heroku builds:cancel ; web: gunicorn app_run:app"
