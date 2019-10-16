@@ -33,3 +33,5 @@ deploy:
   #Setting your heroku Procfile here!!!
   run:
     "web: gunicorn app_run:app"
+  run:
+    "heroku ps:scale web=1"
