@@ -30,3 +30,7 @@ deploy:
   app: test-my-travisci-project
   on:
     repo: jimting/GitProjectTutorialExample
+  #Setting your heroku Procfile here!!!
+  run:
+    "web: gunicorn webapp:app"
+    
