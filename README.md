@@ -11,4 +11,4 @@ https://slides.com/jimting/git/#/
 
 ----------
 
-# 助教很生氣 Lab4沒放專案網址就0分
+# Lab沒放專案網址就0分^Q^
