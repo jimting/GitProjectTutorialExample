@@ -12,3 +12,5 @@ https://slides.com/jimting/git/#/
 ----------
 
 # Lab沒放專案網址就0分^Q^
+
+# 直接Fork我的專案也0分
